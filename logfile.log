@@ -607,3 +607,5 @@
 {"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (C:\\Users\\ArnoldGT\\VS_Projects\\vidly_backend\\models\\rental.js:60:19)\n    at Object.<anonymous>.router.post (C:\\Users\\ArnoldGT\\VS_Projects\\vidly_backend\\routes\\returns.js:26:3)","level":"error","timestamp":"2019-11-05T01:11:55.584Z"}
 {"level":"info","message":"Listening on port 3001...","timestamp":"2019-11-05T01:12:25.848Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2019-11-05T01:12:27.897Z"}
+{"level":"info","message":"Listening on port 3001...","timestamp":"2019-11-06T20:57:49.789Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2019-11-06T20:57:51.868Z"}
