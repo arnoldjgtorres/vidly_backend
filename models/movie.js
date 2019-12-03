@@ -37,7 +37,7 @@ function validateMovie(movie) {
     dailyRentalRate: Joi.number().required()
   };
 
-  console.log(movie);
+  console.log("REACHED", movie);
   return Joi.validate(movie, schema);
 }
 
