@@ -21,6 +21,7 @@ router.post("/", async (req, res) => {
 
   const token = user.generateAuthToken();
 
+  console.log("Auth(Routes)", token);
   res.send(token);
 });
 
@@ -37,7 +38,7 @@ function validate(req) {
       .required()
   };
 
-  console.log(req);
+  console.log("Auth.js validate func", req);
   return Joi.validate(req, schema);
 }
 

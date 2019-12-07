@@ -6,3 +6,6 @@ Vidly backend using:
 
 configuration json web token key setup on Windows:
 set vidly_jwtPrivateKey=mySecureKey
+
+
+
